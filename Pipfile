@@ -5,18 +5,22 @@ verify_ssl = true
 
 [dev-packages]
 black = "==21.11b1"
+commitizen = "==2.18.0"
+controllerx = {path = ".", editable = true}
+flake8 = "==3.9.2"
+isort = "==5.9.3"
+mkdocs-gen-files = "*"
+mkdocs-macros-plugin = "*"
+mkdocs-material = "*"
+mock = "==4.0.3"
+mypy = "==0.910"
+pre-commit = "==2.15.0"
 pytest = "==6.2.5"
 pytest-asyncio = "==0.16.0"
 pytest-cov = "==3.0.0"
 pytest-mock = "==3.6.1"
 pytest-timeout = "==2.0.1"
-mock = "==4.0.3"
-pre-commit = "==2.15.0"
-commitizen = "==2.20.0"
-mypy = "==0.910"
-flake8 = "==4.0.1"
-isort = "==5.10.1"
-controllerx = {path = ".", editable = true}
+
 
 [packages]
 appdaemon = "==4.1.0"
